@@ -1,0 +1,134 @@
+/************ 
+//--------------------------------
+// GENERAL
+//-------------------------------
+************/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding-top: 80px;
+}
+
+h1 {
+	font-size: 2.3em;
+  line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+
+/************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+.main-header {
+	background: #333;
+	color: white;
+	height: 30%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+    text-align: center;
+}	
+	.main-header a {
+		color: white;
+	}
+
+
+/************ 
+//------------------------------
+// CONTENIDO
+//------------------------------
+************/
+.main-content {
+    padding-top: 5%;
+	background: white;
+	width: 95%;
+	margin: 20px auto;
+	/* box-shadow: 0 0 10px rgba(0,0,0,.1); */
+}
+
+	.main-content header,
+	.main-content .content {
+		padding: 40px;
+	}
+
+    .pronosticoBox {
+        border: 1px solid #000000;
+        border-radius: 20px;
+        padding: 40px 10px;
+    }
+
+    .tituloPronostico {
+        padding-left: 20px;
+    }
+	
+    .diasSemana  {
+        text-align: center;
+        margin-top: auto;
+        /* margin-bottom: 300px; */
+        display:flex;
+    }
+
+    .diaBox {
+        align-content: center;
+        border: 1px solid burlywood;
+        border-radius: 20px;
+        background-color: burlywood;
+        height: 100px;
+        width: 100px;
+        padding: 30px 20px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 50px;
+        margin: 30px 20px;
+    }
+
+    .productosBox {
+        border: 1px solid #000000;
+        border-radius: 20px;
+        padding: 40px 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .tabla {
+        padding-left: 20px;
+        padding-top: 20px;
+        border: 1px solic blue;
+        width: 100%;
+    }
+
+    th {
+        text-align: left;
+    }
+
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+.main-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+	.main-footer p {
+		margin: 0;
+	}
+	
+	.main-footer a {
+		color: white;
+	}
